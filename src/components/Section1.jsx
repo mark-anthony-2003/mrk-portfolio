@@ -10,7 +10,7 @@ const Section1 = () => {
                 <PiHandWavingFill className="ml-2 text-2xl" />
             </div>
             <Title />
-            <div className="flex justify-center align-center flex-col px-44">
+            <div className="flex justify-center align-center flex-col">
                 <p>
                     I'm a software developer skilled in both front-end and back-end technologies, adept
                     in Agile Scrum methodology, and committed to driving projects forward through effective
