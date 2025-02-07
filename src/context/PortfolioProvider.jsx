@@ -8,10 +8,10 @@ import { Certifications } from '../data/Certifications'
 const PortfolioContent = createContext()
 
 export const PortfolioProvider = ({ children }) => {
-    const [workExps, useWorkExps] = useState(WorkExperiences)
-    const [workSkills, useWorkSkills] = useState(WorkSkills)
-    const [educations, useEducations] = useState(Educations)
-    const [certifications, useCertifications] = useState(Certifications)
+    const [workExps, setWorkExps] = useState(WorkExperiences)
+    const [workSkills, setWorkSkills] = useState(WorkSkills)
+    const [educations, setEducations] = useState(Educations)
+    const [certifications, setCertifications] = useState(Certifications)
 
     return (
         <PortfolioContent.Provider
